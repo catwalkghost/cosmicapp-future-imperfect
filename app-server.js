@@ -4,7 +4,7 @@ import hogan from 'hogan-express'
 import http_module from 'http'
 import compression from 'compression'
 const config = {
-  COSMIC_BUCKET: process.env.COSMIC_BUCKET || 'future-imperfect'
+  COSMIC_BUCKET: process.env.COSMIC_BUCKET || 'warmongers'
 }
 const app = express()
 app.use(compression())
